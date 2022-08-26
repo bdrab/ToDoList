@@ -4,17 +4,22 @@
     <meta charset="UTF-8">
     <title>toDoList</title>
     <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
 </head>
 <body>
     <div class="list-container">
         <input type="text" placeholder="Your task..." class="addTaskText"/>
         <button class="addTaskBtn">Add new task!</button>
-        <hr class="addTaskHr">
+        <br>
+        <label for="tasks">Show:</label>
+        <select name="tasks" id="tasks">
+          <option value="all">All</option>
+          <option value="todo">To Do</option>    
+          <option value="done">Done</option>
+        </select> 
+        <hr>
         <div class="list-container-tasks">
         </div>
     </div>
-
-
-<script src="script.js"></script>
 </body>
 </html>
