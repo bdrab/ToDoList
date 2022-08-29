@@ -1,10 +1,10 @@
 body{
-    background-color: #3daeff;
+    background-color: lightblue;
 }
 
 .list-container{
     padding: 10px 0 10px 0;
-    margin: 5% 30% 0% 30%;
+    margin: 5% 15% 0% 15%;
     background-color: white;
     text-align: center;
     border: 5px solid #044c80;
@@ -22,11 +22,11 @@ body{
 }
 
 hr {
-    width: 30%;
+    width: 5%;
     margin-bottom: 40px;
     height: 0;
     border: none;
-    border-top: 8px dotted #044c80;
+    border-top: 4px dotted #044c80;
     margin-top: 10px;
 }
 
@@ -36,4 +36,12 @@ hr {
 
 .taskBTNs {
     margin: auto;
+}
+
+#tasks, .addTaskBtn{
+    margin-top: 20px;
+}
+
+.addTaskBtn{
+    margin-top: 5px;
 }
